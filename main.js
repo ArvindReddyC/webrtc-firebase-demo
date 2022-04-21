@@ -4,8 +4,15 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyA1PqlkRnmutEMMPJ-2CrWJkm_c8pJXAtM",
+  authDomain: "webrtc-test-1a3fe.firebaseapp.com",
+  projectId: "webrtc-test-1a3fe",
+  storageBucket: "webrtc-test-1a3fe.appspot.com",
+  messagingSenderId: "211195888530",
+  appId: "1:211195888530:web:b0a30de935518364d8774b",
+  measurementId: "G-8ZTV3WJ8FL"
 };
+
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
